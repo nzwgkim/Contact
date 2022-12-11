@@ -10,7 +10,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        home: Image.asset('pumpkin-190123__340.png')
+        home: Center(
+          child: Container(width: 50,height: 50,color: Colors.blue)
+        )
+      //Container(width: 50,height: 50,color: Colors.blue)
     );
   }
 }
